@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-export default ({ context }) => {
+export default ({ router }) => {
   if (process.env.NODE_ENV !== 'production') return
 
   (function (i, s, o, g, r, a, m) {
@@ -12,7 +12,7 @@ export default ({ context }) => {
 
   ga('create', 'UA-118290517-3', 'auto')
 
-  context.router.afterEach((to) => {
+  router.afterEach((to) => {
     ga('set', 'page', to.fullPath)
     ga('send', 'pageview')
   })
