@@ -1,7 +1,7 @@
 # TODO List
 
 > Simple Todo List
-[DEMO](https://quila.dev/todo-list)
+[DEMO](https://anilsonlopes.github.io/todo-list)
 
 ## Build Setup
 
